@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'CCValidator'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = 'CCValidator helps you validate credit card type and numbers correctness.'
 
 s.description      = 'Check credit card type (full number not needed!)
@@ -17,11 +17,12 @@ s.description      = 'Check credit card type (full number not needed!)
 s.homepage         = 'https://github.com/DigitalForms/CCValidator'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Mariusz Wisniewski' => 'mariusz.wisniewski@digitalforms.pl' }
-s.source           = { :git => 'https://github.com/DigitalForms/CCValidator.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/jessearmand/CCValidator.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 
 s.source_files = 'CCValidator/Classes/**/*'
+s.swift_version = '4.2'
 
 # s.resource_bundles = {
 #   'CCValidator' => ['CCValidator/Assets/*.png']
